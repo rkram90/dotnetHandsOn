@@ -1,0 +1,38 @@
+Dotnote Notes:
+
+To create api service
+----------------------
+
+dotnet new webapi -n MyDotnetAPI
+
+To run the project
+------------------
+
+dotnet run
+
+.NET Package manager
+----------------------
+
+dotnet nuget list source
+
+CMD to Add Nuget 
+----------------
+
+dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org
+
+
+.Net Available Template
+------------------------
+dotnet new --list
+
+
+
+How to add Package to the dotnet project?
+-----------------------------------------
+
+dotnet add package Dapper
+dotnet add package microsoft.data.sqlclient 
+dotnet add package microsoft.entityframeworkcore
+dotnet add package microsoft.entityframeworkcore.sqlserver
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.JSON
